@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
-body{
+
+body {
     background-color: darkgrey;
 }
-#timer{ 
+
+#timer {
     padding: 1rem;
     background-color: aqua;
     margin: 1rem 1rem;
@@ -14,7 +16,8 @@ body{
     border: solid 2px black;
     position: absolute;
 }
-#highscore{
+
+#highscore {
     display: inline-block;
     position: absolute;
     margin-top: 5rem;
@@ -23,63 +26,64 @@ body{
     background-color: beige;
     text-decoration: underline;
 }
-#highscore ul li{
-    text-decoration: none;
-    color: brown;
-}
-#main-content{
+
+#main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-button{
+
+button {
     cursor: pointer;
     background-color: lightgray;
 }
-button:hover{
+
+button:hover {
     background-color: darkgray;
 }
-#start-btn{
-   font-size: 5rem;
-   padding: 1rem;
-   border-radius: 2rem;
- 
+
+#start-btn {
+    font-size: 5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+
 }
-.hide{
+
+.hide {
     display: none;
 }
-#q-a{
+
+#q-a {
     padding: 2rem 2rem 1rem 2rem;
     background-color: beige;
     border-radius: 2rem;
     text-align: center;
 }
+
 #q-a li {
     display: flex;
     left: 0;
     list-style: none;
 }
-.btn{
+
+.btn {
     width: 100%;
     border-radius: 0.5rem;
     padding: 0.25rem;
     text-align: left;
 }
-#next{
+
+#next {
     margin-top: 0.75rem;
     padding: 0.75rem;
     border-radius: 1rem;
 }
-.correct{
+
+.correct {
     background-color: lightgreen;
 }
-.wrong{
+
+.wrong {
     background-color: red;
 }
-
-
-
-
-    
-
