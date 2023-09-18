@@ -14,6 +14,19 @@ body{
     border: solid 2px black;
     position: absolute;
 }
+#highscore{
+    display: inline-block;
+    position: absolute;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: beige;
+    text-decoration: underline;
+}
+#highscore ul li{
+    text-decoration: none;
+    color: brown;
+}
 #main-content{
     display: flex;
     justify-content: center;
